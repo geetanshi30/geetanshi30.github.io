@@ -36,5 +36,8 @@ function hideSub2() {
 
 document.getElementById("close-button2").onclick = hideSub2;
 
+const logo = document.querySelectorAll('#title path');
 
-
+for (let i = 0; i < logo.length; i++){
+  console.log('Letter ${i} is ${logo[i].getTotalLength()}');
+}

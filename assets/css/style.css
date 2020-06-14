@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script);
+
 html {
   margin: 0px;
   padding: 0px;
@@ -26,7 +28,7 @@ h2 {
 
 h3 {
     color: #8D8AAD;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 25px;
     font-weight: normal;
     text-decoration: none;
@@ -34,9 +36,9 @@ h3 {
 }
 
 p {
-  color: #8D8AAD;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
+  color: #110C4A;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
   font-weight: normal;
   text-decoration: none;
   line-height: 2;
@@ -44,7 +46,7 @@ p {
 
 h4 {
   color: #8D8AAD;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 15px;
   font-weight: normal;
   text-decoration: none;
@@ -52,8 +54,8 @@ h4 {
 }
 
 h5 {
-  color: #8D8AAD;
-  font-family: 'Montserrat', sans-serif;
+  color: #110C4A;
+  font-family: 'Open Sans', sans-serif;
   font-size: 30px;
   font-weight: lighter;
   font-style: italic;
@@ -89,18 +91,18 @@ h5 {
     margin-left: 40%;
     margin-right:  3%;
 }
-  
+
 #navbar {
-    
+
     top: 0px;
     display: flex;
     align-items: flex-start;
     position: fixed;
-    
+
     margin-right: 3%;
     width: 100%;
     background-color: #EDEDED;
-    
+
   }
 
   #navbar-pages {
@@ -109,7 +111,7 @@ h5 {
     align-items: flex-end;
     margin-right: 13%;
   }
-  
+
   .navbar-item {
     display: flex;
     align-items: center;
@@ -126,7 +128,7 @@ h5 {
     justify-content: center;
     top: 30%;
     left: 40%;
-    
+
   }
 
   #personal-links {
@@ -159,8 +161,217 @@ h5 {
     display: flex;
     position: absolute;
     align-self: center;
-    top: 33%;
-    left: 23%;
+    top: 47%;
+    left: 20%;
+  }
+
+  #site-title path:nth-child(1){
+    stroke-dasharray: 525.5151977539062px;
+    stroke-dashoffset: 525.5151977539062px;
+    animation: line-anim 2s ease forwards 0.3s;
+    stroke-linecap: square;
+  }
+
+  #paths {
+    animation: fill 0.5s ease forwards 8s;
+  }
+
+  #site-title path:nth-child(2){
+    stroke-dasharray: 639.100341796875px;
+    stroke-dashoffset: 639.100341796875px;
+    animation: line-anim 2s ease forwards 0.6s;
+    stroke-linecap: square;
+
+  }
+
+  #site-title path:nth-child(3){
+    stroke-dasharray: 639.100341796875px;
+    stroke-dashoffset: 639.100341796875px;
+    animation: line-anim 2s ease forwards 0.9s;
+    stroke-linecap: square;
+
+  }
+
+  #site-title path:nth-child(4){
+    stroke-dasharray: 388.0324401855469px;
+    stroke-dashoffset: 388.0324401855469px;
+    animation: line-anim 2s ease forwards 1.2s;
+    stroke-linecap: square;
+  }
+
+  #site-title path:nth-child(5){
+    stroke-dasharray: 390.228271484375px;
+    stroke-dashoffset: 390.228271484375px;
+    animation: line-anim 2s ease forwards 1.5s;
+    stroke-linecap: square;
+  }
+
+  #site-title path:nth-child(6){
+    stroke-dasharray: 341.3936767578125px;
+    stroke-dashoffset:341.3936767578125px;
+    animation: line-anim 2s ease forwards 1.8s;
+    stroke-linecap: square;
+  }
+
+  #site-title path:nth-child(7){
+    stroke-dasharray: 588.0499877929688px;
+    stroke-dashoffset: 588.0499877929688px;
+    animation: line-anim 2s ease forwards 2.1s;
+    stroke-linecap: square;
+  }
+
+  #site-title path:nth-child(8){
+    stroke-dasharray: 546.5386199951172px;
+    stroke-dashoffset: 546.5386199951172px;
+    animation: line-anim 2s ease forwards 2.4s;
+  }
+
+  #site-title path:nth-child(9){
+    stroke-dasharray: 341.3944091796875px;
+    stroke-dashoffset: 341.3944091796875px;
+    animation: line-anim 2s ease forwards 2.7s;
+  }
+
+  #site-title path:nth-child(10){
+    stroke-dasharray: 588.0498657226562px;
+    stroke-dashoffset: 588.0498657226562px;
+    animation: line-anim 2s ease forwards 3.0s;
+  }
+
+  #site-title path:nth-child(11){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 3.3s;
+  }
+
+  #site-title path:nth-child(12){
+    stroke-dasharray: 400px;
+    stroke-dashoffset: 400px;
+    animation: line-anim 2s ease forwards 3.6s;
+  }
+
+  #site-title path:nth-child(13){
+    stroke-dasharray: 463.8697814941406px;
+    stroke-dashoffset: 463.8697814941406px;
+    animation: line-anim 2s ease forwards 3.9s;
+  }
+
+  #site-title path:nth-child(14){
+    stroke-dasharray: 500px;
+    stroke-dashoffset: 500px;
+    animation: line-anim 2s ease forwards 4.2s;
+  }
+
+  #site-title path:nth-child(15){
+    stroke-dasharray: 525.5151977539062px;
+    stroke-dashoffset: 525.5151977539062px;
+    animation: line-anim 2s ease forwards 4.5s;
+  }
+
+  #title path:nth-child(16){
+    stroke-dasharray: 525.5151977539062px;
+    stroke-dashoffset: 525.5151977539062px;
+    animation: line-anim 2s ease forwards 4.8s;
+  }
+
+  #title path:nth-child(17){
+    stroke-dasharray: 354.7554016113281px;
+    stroke-dashoffset: 354.7554016113281px;
+    animation: line-anim 2s ease forwards 5.1s;
+  }
+
+  #title path:nth-child(18){
+    stroke-dasharray: 388.0324401855469px;
+    stroke-dashoffset: 388.0324401855469px;
+    animation: line-anim 2s ease forwards 5.4s;
+  }
+
+  #title path:nth-child(19){
+    stroke-dasharray: 316.228271484375px;
+    stroke-dashoffset: 316.228271484375px;
+    animation: line-anim 2s ease forwards 5.7s;
+  }
+
+  #title path:nth-child(20){
+    stroke-dasharray: 341.3936767578125px;
+    stroke-dashoffset: 341.3936767578125px;
+    animation: line-anim 2s ease forwards 6.0s;
+  }
+
+  #title path:nth-child(21){
+    stroke-dasharray: 588.0499877929688px;
+    stroke-dashoffset: 588.0499877929688px;
+    animation: line-anim 2s ease forwards 6.3;
+  }
+
+  #title path:nth-child(22){
+    stroke-dasharray:  246.5386199951172px;
+    stroke-dashoffset:  246.5386199951172px;
+    animation: line-anim 2s ease forwards 6.6s;
+  }
+
+  #title path:nth-child(23){
+    stroke-dasharray: 341.3944091796875px;
+    stroke-dashoffset: 341.3944091796875px;
+    animation: line-anim 2s ease forwards 6.9s;
+  }
+
+  #title path:nth-child(24){
+    stroke-dasharray: 588.0498657226562px;
+    stroke-dashoffset: 588.0498657226562px;
+    animation: line-anim 2s ease forwards 7.2s;
+  }
+
+  #title path:nth-child(25){
+    stroke-dasharray: 388.0330810546875px;
+    stroke-dashoffset: 388.0330810546875px;
+    animation: line-anim 2s ease forwards 7.5s;
+  }
+
+  #title path:nth-child(26){
+    stroke-dasharray: 280.0172119140625px;
+    stroke-dashoffset: 280.0172119140625px;
+    animation: line-anim 2s ease forwards 7.8s;
+  }
+
+  #title path:nth-child(27){
+    stroke-dasharray: 463.8697814941406px;
+    stroke-dashoffset: 463.8697814941406px;
+    animation: line-anim 2s ease forwards 8.1s;
+  }
+
+  #title path:nth-child(28){
+    stroke-dasharray: 388.0333557128906px;
+    stroke-dashoffset: 388.0333557128906px;
+    animation: line-anim 2s ease forwards 8.4s;
+  }
+
+  @keyframes line-anim {
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+
+  @keyframes fill {
+    from {
+      fill: transparent;
+    }
+    to {
+      fill: #B08EBF;
+    }
+
+  }
+
+
+
+  @keyframes type {
+    0% {
+      width: 0ch;
+    }
+
+    100% {
+      width:16ch;
+    }
   }
 
   #next-arrow {
@@ -193,6 +404,7 @@ h5 {
   margin-left: 5%;
   margin-right: 5%;
   margin-top: 0px;
+  
 
 }
 
@@ -272,6 +484,10 @@ h5 {
   *
 */
 
+.project {
+  size: 50%;
+}
+
 .projects-section {
   display: flex;
   flex-direction: row;
@@ -286,6 +502,3 @@ h5 {
   display: flex;
   align-items: center;
 }
-
-
-
